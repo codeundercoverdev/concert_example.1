@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :venues
+
   resources :bands
 
   devise_for :admin_users, ActiveAdmin::Devise.config
